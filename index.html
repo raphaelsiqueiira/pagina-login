@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- 
+    Arquivo inicial desafio Pagina login (HTML e CSS)
+    > www.devmentor.com.br
+  -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="form" action="#" method="get">
+    <h1>Login</h1>
+    <section class="parte-cima">
+      <div class="email">
+        <label for="email"></label>
+        <input title="é usado para receber dados do usuário." type="email" id="email" name="usuario-email" placeholder="Digite seu email" />
+      </div><!--class="email"-->
+      
+      <div class="senha">
+        <label for="senha"></label>
+        <input title="é usado para receber dados do usuário." type="password" 
+        id="senha" name="usuario-senha" placeholder="Digite sua senha" 
+        minlength="8" />
+      </div><!--class="senha"-->
+      <button class="btn-acesso" type="submit" >Acessar</button>
+    </section>
+
+    <section class="parte-baixo">
+      <p>Ou entre com sua rede social</p>
+      <div>
+        <button class="btn-Twitter" type="submit">Entrar com Twitter</button>
+      </div>
+      <div>
+        <button class="btn-Facebook" type="submit">Entrar com Facebook</button>
+      </div>
+    </section>
+  </form>
+  <script>src="script.js"</script>
+</body>
+</html>

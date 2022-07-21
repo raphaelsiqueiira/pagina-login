@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  /* Aplicando reset no css padrão */
+  * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* CENTRALIZANDO TODO NOSSO CONTEUDO */
+  body {
+    background: #121212;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #464646;
+  }
+
+  h1{
+    color: #121212;
+    padding: 10px;
+    margin:10px 8px ;
+  }
+
+  form{
+    background-color: #ffffff;
+    width: 500px;
+    height: max-content;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+
+    section{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+  input{
+    background-color: #E5E5E5;
+    margin: 5px;
+    padding: 14px;
+    width:400px;
+    border-radius: 7px;
+  }
+
+  .btn-acesso{
+    background-color: #121212;
+    color: #ffffff;
+    margin: 5px;
+    padding: 14px;
+    width:400px;
+    border-radius: 5px;
+  }
+
+  .parte-baixo{
+    padding-top: 10vh;
+  }
+
+  p{
+    padding-bottom: 14px;
+  }
+
+  .btn-Twitter{
+    background-color: #56A7F2;
+    color: #ffffff;
+    margin: 5px;
+    padding: 14px;
+    width:400px;
+    border-radius: 5px;
+  }
+
+  .btn-Facebook{
+    background-color: #07437a;
+    color: #ffffff;
+    margin: 5px;
+    padding: 14px;
+    width:400px;
+    border-radius: 5px;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 600px){
+    form{
+      width:92vw;
+      padding-bottom: 10px;
+      height:max-content;
+    }
+    input, .btn-acesso , .btn-Facebook, .btn-Twitter{
+      width:80vw;
+    }
+
+  }
